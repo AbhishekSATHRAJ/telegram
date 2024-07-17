@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Telegram OTP</title>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <style>
+      fieldset {
+        padding: 10px;
+        margin: 0%;
+        border: 2px solid silver;
+        width: 50%;
+        border-radius: 4px;
+        margin-left: 22%;
+        margin-right: 25%;
+        width: 450px;
+        height: 450px;
+      }
+      h1 {
+        display: flex;
+        justify-content: center;
+        font-size: medium;
+        margin-right: 30%;
+      }
+      h2 {
+        display: flex;
+        justify-content: center;
+        font-size: medium;
+        margin-left: 25%;
+        margin-right: 10%;
+        color: silver;
+      }
+      label {
+        display: flex;
+        justify-content: center;
+        margin-right: 44%;
+        font-size: large;
+        color: rgb(0, 132, 255);
+      }
+      input[type="text" i] {
+        padding-block: 1px;
+        padding-inline: 2px;
+        margin-left: 25%;
+        margin-right: 10%;
+        width: 60%;
+        font-size: 30px;
+        border-radius: 4px;
+      }
+      h3 a {
+        display: flex;
+        justify-content: center;
+        margin-right: 20%;
+        font-size: large;
+        color: rgb(0, 132, 255);
+      }
+      input[type="submit" i] {
+        margin-left: 25%;
+        margin-right: 10%;
+        width: 60%;
+        font-size: 30px;
+        border-radius: 4px;
+        background-color: rgb(0, 132, 255);
+        color: whitesmoke;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <fieldset>
+        <a href="./telegram.html" target="_blank"
+          ><ion-icon name="arrow-back-outline"></ion-icon
+        ></a>
+        <a href="chrome://settings"><ion-icon name="settings"></ion-icon></a>
+        <br />
+        <h1>+91991245029</h1>
+        <h2>
+          A code was sent via Telegram to your other devices, if you have any
+          connected
+        </h2>
+        <form>
+          <label for="Code">code</label><br />
+          <input
+            type="text"
+            id="Code"
+            placeholder="555-555"
+            name="Code"
+            pattern="[1-9][6]"
+          />
+          <br /><br />
+          <h3><a href="sms:+919912450290">Send code via SMS</a></h3>
+          <input type="submit" value="NEXT" />
+        </form>
+      </fieldset>
+    </form>
+  </body>
+</html>
